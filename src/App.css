@@ -1,0 +1,61 @@
+.fetchContainer {
+  width: 35%;
+  height: auto;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.fetchBoxs {
+  display: inline;
+  justify-content: center;
+}
+
+.fetchBox {
+  max-width: 80% !important;
+  max-height: 100%;
+  margin: 20px auto;
+  background-color: greenyellow;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid #d3cece;
+}
+
+.textHeading {
+  margin: 0px;
+  font-family: cursive;
+}
+
+.textTitle {
+  margin: 0px;
+  font-family: cursive;
+}
+
+.anchorStyle {
+  font-size: 12px;
+  font-family: cursive;
+  font-weight: 500;
+  text-decoration: none;
+  color: #1b5485;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .fetchContainer {
+    width: 95%;
+    height: auto;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    margin: 20px auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .fetchContainer {
+    width: 75%;
+    height: auto;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    margin: 20px auto;
+  }
+}
